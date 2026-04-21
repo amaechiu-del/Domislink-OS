@@ -53,13 +53,13 @@ export default function SubscriptionStatus({ school }: Props) {
                 })}
               </strong>{' '}
               {days <= 30 && (
-                <span className="text-amber-600 font-medium">
+                <span className="font-medium text-amber-600">
                   ({days} day{days !== 1 ? 's' : ''} left)
                 </span>
               )}
             </>
           ) : (
-            <span className="text-red-600 font-medium">
+            <span className="font-medium text-red-600">
               Subscription expired — please renew to restore access.
             </span>
           )}

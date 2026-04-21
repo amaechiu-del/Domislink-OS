@@ -43,8 +43,8 @@ export const PLAN_LIMITS: Record<Plan, PlanConfig> = {
   enterprise: {
     name: 'Enterprise Plan',
     priceNaira: 300_000,
-    studentLimit: 9_999,
-    teacherLimit: 999,
+    studentLimit: 999_999,
+    teacherLimit: 9_999,
     features: [
       'Everything in Growth',
       'Unlimited students',
